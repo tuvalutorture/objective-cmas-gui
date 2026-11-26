@@ -52,7 +52,6 @@ in other words, yo shit aint gonna work on other shit XD
 and MUST be kept in mind if attempting to write cross-compatible programs.
 * String Literals - In CMAS, String Literals are required to be wrapped in quotation marks (`"`), whilst SIMASJS does not hold this requirement. (an error will be thrown if a string literal is not in quotes when expected, or you may get unexpected results)
 * CMAS is whitespace-insensitive for tokenisation, so instructions may be split by multiple spaces, lines, etc. This differs from SIMASJS, which requires EXACTLY one space per token.
-* CMAS supports calling functions from within functions, which is NOT supported by SIMASJS and will often lead to an infinite loop of execution.
 * CMAS supports chaining certain instructions, such as `LIST APPC`, allowing you to save lines (and memory) by simply chaining instructions instead of having many independent function calls.
 
 #### Known Objective-CMAS exclusive features:
